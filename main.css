@@ -1,0 +1,58 @@
+body{
+    background-color: aquamarine;
+    color: white;
+}
+
+
+p{
+    line-height:2em;
+}
+
+.divFont{
+    font-size: 40px;
+}
+
+span{
+    font-size: 0.5em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.submitButton{
+    background-color: rgb(41, 10, 239);
+    color: lightblue;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+}
+
+@media(max-width:600px){
+    /* css rules for smaller screens*/
+    body{
+        background-color: whitesmoke;
+        color: brown;
+    }
+    
+}
+@media (min-width:601px) and(max-width: 1024px){
+    /* css rules for medium screens*/
+    body{
+        background-color: white;
+        color: purple;
+        font-size: 3em;
+    }
+}
+
+@media(min-width: 1024px) {
+    /* css rules for medium screens*/
+    body{
+        background-color: blue;
+        color: goldenrod;
+        font-size: 4em;
+    }
+}
